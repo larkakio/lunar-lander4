@@ -22,8 +22,8 @@
     "primaryCategory": "games",
     "tags": ["arcade", "retro", "physics", "space", "gaming"],
     "heroImageUrl": "https://lunar-lander4.vercel.app/hero-image.png",
-    "tagline": "Land safely or crash spectacularly",
-    "ogTitle": "Lunar Lander - Retro Space Game",
+    "tagline": "Land safely or crash",
+    "ogTitle": "Lunar Lander",
     "ogDescription": "Physics-based lunar landing challenge. Navigate gravity, manage fuel, and stick the landing!",
     "ogImageUrl": "https://lunar-lander4.vercel.app/hero-image.png"
   }
