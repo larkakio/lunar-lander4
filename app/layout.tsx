@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
-const ROOT_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://lunar-lander.vercel.app';
+const ROOT_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://lunar-lander4.vercel.app';
 
 const FC_EMBED = {
   version: '1',

@@ -1,4 +1,4 @@
-const ROOT_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://lunar-lander.vercel.app';
+const ROOT_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://lunar-lander4.vercel.app';
 
 export const minikitConfig = {
   accountAssociation: {
