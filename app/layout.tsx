@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { BaseAppMeta } from '@/components/BaseAppMeta';
 
 const ROOT_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://lunar-lander4.vercel.app';
 
@@ -45,6 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-space text-white antialiased">
+        <BaseAppMeta />
         {children}
       </body>
     </html>
