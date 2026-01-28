@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import { BaseAppMeta } from '@/components/BaseAppMeta';
 
 const ROOT_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://lunar-lander4.vercel.app';
 
@@ -35,6 +34,7 @@ export const metadata: Metadata = {
     'apple-mobile-web-app-status-bar-style': 'black-translucent',
     'fc:miniapp': JSON.stringify(FC_EMBED),
     'fc:frame': JSON.stringify(FC_EMBED),
+    'base:app_id': '697a1e559266edba958ff4cc',
   },
 };
 
@@ -45,8 +45,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="base:app_id" content="697a1e559266edba958ff4cc" />
+      </head>
       <body className="bg-space text-white antialiased">
-        <BaseAppMeta />
         {children}
       </body>
     </html>
